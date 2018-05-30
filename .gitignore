@@ -1,0 +1,8 @@
+*.pro.*
+*~
+*.bak
+*.swp
+html/
+*.zip
+c_library_v2/
+

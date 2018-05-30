@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MissionDialog</class>
+ <widget class="QDialog" name="MissionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>856</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>任务</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image.qrc">
+    <normaloff>:/image/resource/points.png</normaloff>:/image/resource/points.png</iconset>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="0,0">
+   <property name="leftMargin">
+    <number>2</number>
+   </property>
+   <property name="topMargin">
+    <number>2</number>
+   </property>
+   <property name="rightMargin">
+    <number>2</number>
+   </property>
+   <property name="bottomMargin">
+    <number>2</number>
+   </property>
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QCheckBox" name="LoopBox">
+       <property name="text">
+        <string>循环</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="RouteBox">
+       <item>
+        <property name="text">
+         <string>航路1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>航路2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>降落航路</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>盘旋航路</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>回家航路</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="EditButton">
+       <property name="text">
+        <string>编辑</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="UploadButton">
+       <property name="text">
+        <string>上传航线</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="DownloadButton">
+       <property name="text">
+        <string>下载航线</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="SaveButton">
+       <property name="text">
+        <string>保存航线</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ReadButton">
+       <property name="text">
+        <string>读取航线</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="MoveupButton">
+       <property name="text">
+        <string>上移</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="MovedownButton">
+       <property name="text">
+        <string>下移</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="DeleteButton">
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="ClearButton">
+       <property name="text">
+        <string>清空</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QTableWidget" name="InfoTable">
+     <property name="focusPolicy">
+      <enum>Qt::WheelFocus</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>航点号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>经度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>纬度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>高度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>速度</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>半径</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>动作</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QProgressBar" name="progressBar">
+     <property name="value">
+      <number>0</number>
+     </property>
+     <property name="textVisible">
+      <bool>false</bool>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>

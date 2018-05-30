@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>resource/plane.png</file>
+        <file>resource/Setting.png</file>
+        <file>resource/points.png</file>
+        <file>resource/datalink.png</file>
+        <file>resource/Battery1.png</file>
+        <file>resource/Battery2.png</file>
+        <file>resource/Battery3.png</file>
+        <file>resource/Battery4.png</file>
+        <file>resource/Battery5.png</file>
+        <file>resource/Battery6.png</file>
+        <file>resource/focus.png</file>
+        <file>resource/rule.png</file>
+        <file>resource/datalink_Dis.png</file>
+        <file>resource/F.png</file>
+        <file>resource/hawk.png</file>
+        <file>resource/Signal1.png</file>
+        <file>resource/Signal2.png</file>
+        <file>resource/Signal3.png</file>
+        <file>resource/Signal4.png</file>
+        <file>resource/Signal5.png</file>
+        <file>resource/Signal0.png</file>
+        <file>resource/Direction.png</file>
+        <file>resource/Download.png</file>
+        <file>resource/ShootDown.png</file>
+        <file>resource/Upload.png</file>
+        <file>resource/Save.png</file>
+        <file>resource/Serial.png</file>
+        <file>resource/Earth.png</file>
+        <file>resource/Help.png</file>
+        <file>resource/ACC.png</file>
+        <file>resource/AIR.png</file>
+        <file>resource/cube.png</file>
+        <file>resource/gyro.png</file>
+        <file>resource/mag.png</file>
+        <file>resource/GPS.png</file>
+        <file>resource/ASetting.png</file>
+    </qresource>
+</RCC>
