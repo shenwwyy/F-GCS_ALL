@@ -647,7 +647,7 @@ void MainWindow::SaveTimerSetting(int Freq)//重新设置记录频率
 quint8 DataCount = 0;
 void MainWindow::ReadSerial(void)
 {
-    qDebug() << "read";
+    //qDebug() << "read";
 
     QByteArray Data = myPort->readAll();
     DataCount++;

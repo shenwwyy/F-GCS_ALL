@@ -102,7 +102,7 @@ QByteArray RecieveDataBuff;//所有收到的数据都在这里面
 
 void Decode::GetSerialData(QByteArray rawdata)
 {
-    qDebug() << "GET";
+    //qDebug() << "GET";
     RecieveDataBuff.append(rawdata);
     emit GET();
 }
@@ -268,6 +268,14 @@ void Decode::Echo(QByteArray data)
         F = data[DataCount++];
         G = data[DataCount++];
         H = data[DataCount++];
+        qDebug() << A
+                 << B
+                 << C
+                 << D
+                 << E
+                 << F
+                 << G
+                 << H;
         emit ShowEcho(ID,A,B,C,D,E,F,G,H);
     }
 }
@@ -474,6 +482,7 @@ void Decode::Remote(QByteArray data)
                      Status2.status.CtrlMode,Status2.status.AirPlane,Status2.status.FlightMode,
                      Protect,
                      Command2.data);
+
 
      emit ShowAttitude(ROLL1,PITCH1,YAW1);
     }
