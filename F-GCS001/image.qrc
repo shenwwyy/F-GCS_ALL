@@ -36,5 +36,6 @@
         <file>resource/mag.png</file>
         <file>resource/GPS.png</file>
         <file>resource/ASetting.png</file>
+        <file>resource/grasscut.png</file>
     </qresource>
 </RCC>

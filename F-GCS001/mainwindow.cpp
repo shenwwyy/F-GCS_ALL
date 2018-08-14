@@ -1269,7 +1269,7 @@ void MainWindow::on_TakeOffButton_clicked()//起飞
     //弹出一个小窗口，选择航线和航点
     QDialog *LittleDialog = new QDialog(this);
     LittleDialog->setFixedSize(200,100);
-    LittleDialog->setWindowTitle(tr("确认起飞"));
+    LittleDialog->setWindowTitle(tr("确认开始"));
     LittleDialog->setWindowFlag(Qt::WindowStaysOnTopHint);
 
     QPushButton *pushbutton = new QPushButton(tr("确定"));

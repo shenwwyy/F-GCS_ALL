@@ -426,11 +426,11 @@
    </palette>
   </property>
   <property name="windowTitle">
-   <string>F-GCS</string>
+   <string>千森园林</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>:/image/resource/plane.png</normaloff>:/image/resource/plane.png</iconset>
+   <iconset resource="image.qrc">
+    <normaloff>:/image/resource/grasscut.png</normaloff>:/image/resource/grasscut.png</iconset>
   </property>
   <property name="windowOpacity">
    <double>18.000000000000000</double>
@@ -660,7 +660,7 @@
                   <bool>false</bool>
                  </property>
                  <property name="text">
-                  <string>起飞</string>
+                  <string>开始</string>
                  </property>
                  <property name="checkable">
                   <bool>false</bool>
@@ -1948,7 +1948,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/Setting.png</normaloff>:/image/resource/Setting.png</iconset>
    </property>
    <property name="text">
@@ -1966,7 +1966,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/plane.png</normaloff>
      <normalon>:/img/image/resource/plane.png</normalon>:/image/resource/plane.png</iconset>
    </property>
@@ -1985,7 +1985,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/datalink_Dis.png</normaloff>:/image/resource/datalink_Dis.png</iconset>
    </property>
    <property name="text">
@@ -2000,7 +2000,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/points.png</normaloff>:/image/resource/points.png</iconset>
    </property>
    <property name="text">
@@ -2012,7 +2012,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/rule.png</normaloff>:/image/resource/rule.png</iconset>
    </property>
    <property name="text">
@@ -2021,7 +2021,7 @@
   </action>
   <action name="Battery">
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/Battery1.png</normaloff>:/image/resource/Battery1.png</iconset>
    </property>
    <property name="text">
@@ -2039,7 +2039,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/Signal3.png</normaloff>:/image/resource/Signal3.png</iconset>
    </property>
    <property name="text">
@@ -2048,7 +2048,7 @@
   </action>
   <action name="MapSetting">
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/Earth.png</normaloff>:/image/resource/Earth.png</iconset>
    </property>
    <property name="text">
@@ -2057,7 +2057,7 @@
   </action>
   <action name="Exit">
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/ShootDown.png</normaloff>:/image/resource/ShootDown.png</iconset>
    </property>
    <property name="text">
@@ -2066,7 +2066,7 @@
   </action>
   <action name="SaveData">
    <property name="icon">
-    <iconset>
+    <iconset resource="image.qrc">
      <normaloff>:/image/resource/Save.png</normaloff>:/image/resource/Save.png</iconset>
    </property>
    <property name="text">
@@ -2083,6 +2083,8 @@
    <container>1</container>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
  <connections/>
 </ui>
